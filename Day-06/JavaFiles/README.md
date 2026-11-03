@@ -5,12 +5,13 @@
 ### Polymorphism
 Polymorphism means one thing having many forms.
 
-- **Compile-time polymorphism:** Achieved through method overloading.
-- **Runtime polymorphism:** Achieved through method overriding.
-- **Method overriding:** A child class provides its own implementation of a parent class method.
-- **Abstract classes and methods:** Abstract classes cannot be directly instantiated. Abstract methods do not have a body in the parent class.
+- Compile-time polymorphism – Achieved through method overloading.
+- Runtime polymorphism – Achieved through method overriding.
+- Method overriding – A child class provides its own implementation of a parent class method.
+- Abstract classes and methods – Abstract classes cannot be directly instantiated. Abstract methods do not have a body in the parent class.
 
 ### Constructor Overloading
+
 Constructor overloading means creating multiple constructors in the same class with different parameter lists.
 
 - Multiple constructors can be created in one class.
@@ -142,6 +143,7 @@ Two ducks are in front of two ducks, two ducks are behind two ducks, and one duc
 A finishes before B but behind C. D finishes before E but behind B. Find the order.
 
 **Answer:**
+
 1. C
 2. A
 3. B
@@ -185,6 +187,7 @@ public class Main {
 ```
 
 **Memory explanation:**
+
 - `age` – Stored inside the Student object in heap memory.
 - `name` – Reference stored inside the Student object in heap memory.
 - `"Bidhisha"` – String literal stored in the String Pool.

@@ -7,8 +7,8 @@ public class Student {
         System.out.println("Name: " + name);
     }
 
-    Student(String name, String dept) {
-        System.out.println("Name: " + name + " Dept: " + dept);
+    Student(String name, String Dept) {
+        System.out.println("Name: " + name + " Dept: " + Dept);
     }
 
     public static void main(String[] args) {

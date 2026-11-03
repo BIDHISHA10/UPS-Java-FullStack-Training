@@ -13,7 +13,6 @@ public class Anagram {
                     a[i] = a[j];
                     a[j] = temp;
                 }
-
                 if (b[i] > b[j]) {
                     char temp = b[i];
                     b[i] = b[j];

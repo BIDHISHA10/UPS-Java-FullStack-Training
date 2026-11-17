@@ -1,0 +1,121 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff8ee;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+/* Navigation */
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Sections */
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+/* Lists */
+ul, ol {
+    display: inline-block;
+    text-align: left;
+    line-height: 2;
+}
+
+/* Food Gallery */
+.food-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.food-gallery img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+    display: block;
+}
+
+/* Menu Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 12px;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Links */
+section a {
+    color: darkgreen;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .food-gallery img {
+        width: 160px;
+        height: 120px;
+    }
+}

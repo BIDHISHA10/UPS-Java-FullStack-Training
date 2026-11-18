@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Media Queries</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lightblue;
+            padding: 30px;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: lightgreen;
+            }
+
+            h1 {
+                color: darkgreen;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 992px) {
+            body {
+                background-color: lightyellow;
+            }
+
+            h1 {
+                color: darkorange;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Responsive Webpage</h1>
+    <p>Resize your browser window to see the changes.</p>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Image Filters</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: #34495e;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .gray {
+            filter: grayscale(100%);
+        }
+
+        .blur {
+            filter: blur(3px);
+        }
+
+        .bright {
+            filter: brightness(150%);
+        }
+
+        .contrast {
+            filter: contrast(200%);
+        }
+
+        .saturate {
+            filter: saturate(200%);
+        }
+
+        .sepia {
+            filter: sepia(100%);
+        }
+
+        .invert {
+            filter: invert(100%);
+        }
+
+        .shadow {
+            filter: drop-shadow(5px 5px 5px gray);
+        }
+
+        @media (max-width: 700px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 450px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Image Filters</h1>
+
+    <div class="gallery">
+
+        <div class="item">
+            <img class="gray" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Grayscale</h3>
+        </div>
+
+        <div class="item">
+            <img class="blur" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Blur</h3>
+        </div>
+
+        <div class="item">
+            <img class="bright" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Brightness</h3>
+        </div>
+
+        <div class="item">
+            <img class="contrast" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Contrast</h3>
+        </div>
+
+        <div class="item">
+            <img class="saturate" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Saturate</h3>
+        </div>
+
+        <div class="item">
+            <img class="sepia" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Sepia</h3>
+        </div>
+
+        <div class="item">
+            <img class="invert" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Invert</h3>
+        </div>
+
+        <div class="item">
+            <img class="shadow" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=400" alt="Landscape">
+            <h3>Drop Shadow</h3>
+        </div>
+
+    </div>
+
+</body>
+</html>

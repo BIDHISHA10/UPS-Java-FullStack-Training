@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Animation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 30px;
+        }
+
+        .container {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            background-color: #eeeeee;
+        }
+
+        .box {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: red;
+            animation: move 4s infinite;
+        }
+
+        @keyframes move {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: red;
+            }
+
+            25% {
+                top: 0;
+                left: 340px;
+                background-color: blue;
+            }
+
+            50% {
+                top: 240px;
+                left: 340px;
+                background-color: green;
+            }
+
+            75% {
+                top: 240px;
+                left: 0;
+                background-color: orange;
+            }
+
+            100% {
+                top: 0;
+                left: 0;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Animation</h1>
+
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

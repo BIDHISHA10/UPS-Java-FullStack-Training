@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: serif;
+    background-color: white;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.top, .bottom {
+    background-color: orange;
+    height: 120px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.container div {
+    height: 85px;
+    font-size: 12px;
+}
+
+.box1 {
+    background-color: green;
+}
+
+.box2 {
+    background-color: plum;
+}
+
+.box3 {
+    background-color: turquoise;
+}
+
+.box4 {
+    background-color: pink;
+}
+
+.box5 {
+    background-color: yellow;
+}
+
+.box6 {
+    background-color: red;
+}
